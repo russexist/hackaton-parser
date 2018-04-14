@@ -19,3 +19,28 @@
 .modal-dialog{
   max-width: 55%;
 }
+.style{
+  border: 1px solid lightgray;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px lightgrey;
+  margin-bottom: 15px;
+}
+
+.index-list-group-item{
+  position: relative;
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  width: 20%;
+  color: #495057;
+  text-align: inherit;
+  border-radius: 5px;
+  &:hover{
+    text-decoration: none;
+  }
+}
