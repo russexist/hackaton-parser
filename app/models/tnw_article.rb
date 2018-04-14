@@ -1,0 +1,2 @@
+class TnwArticle < ApplicationRecord
+end

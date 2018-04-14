@@ -10,4 +10,8 @@ class ArticlesController < ApplicationController
   def articles_online
     @third_articles = ThirdArticle.all
   end
+
+  def tnw
+    @tnw_articles = TnwArticle.all
+  end
 end

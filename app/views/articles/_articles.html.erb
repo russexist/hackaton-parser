@@ -1,8 +1,5 @@
-<%= link_to 'Home', root_path %> |
-<%= link_to 'Refresh', parser_unn_path %>
-
 <div class="text-cent">
-  <% @second_articles.each do |article| %>
+  <% articles.each do |article| %>
     <h3><%= article.title %></h3>
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#<%= article.title.truncate(5) %>">
       Show
