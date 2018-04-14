@@ -1,0 +1,2 @@
+class SecondArticle < ApplicationRecord
+end
