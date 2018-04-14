@@ -63,3 +63,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'bootstrap'
 gem 'jquery-rails'
+gem 'will_paginate-bootstrap'
+gem 'will_paginate'
